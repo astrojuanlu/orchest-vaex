@@ -1,0 +1,3 @@
+kaggle
+vaex-core==4.9.0
+vaex-viz

@@ -1,11 +1,53 @@
 {
     "name": "Main",
     "parameters": {},
+    "services": {},
     "settings": {
         "auto_eviction": false,
         "data_passing_memory_size": "1GB"
     },
-    "steps": {},
+    "steps": {
+        "58c9eaa4-0227-44b6-af0b-aeb369468192": {
+            "environment": "525b15c1-5828-4cec-86ca-b5a831af279a",
+            "file_path": "fetch-data.sh",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    20,
+                    80.00000000000003
+                ]
+            },
+            "parameters": {},
+            "title": "Fetch data",
+            "uuid": "58c9eaa4-0227-44b6-af0b-aeb369468192"
+        },
+        "fbb471c0-159e-4bf3-924f-5931aa5de0d6": {
+            "environment": "525b15c1-5828-4cec-86ca-b5a831af279a",
+            "file_path": "convert-data.ipynb",
+            "incoming_connections": [
+                "58c9eaa4-0227-44b6-af0b-aeb369468192"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    283.5,
+                    80.00000000000001
+                ]
+            },
+            "parameters": {},
+            "title": "Convert data",
+            "uuid": "fbb471c0-159e-4bf3-924f-5931aa5de0d6"
+        }
+    },
     "uuid": "7d4c1162-7e0a-4135-9e82-ed3be79a32fa",
     "version": "1.0.0"
 }
