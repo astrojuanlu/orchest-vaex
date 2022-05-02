@@ -7,6 +7,27 @@
         "data_passing_memory_size": "1GB"
     },
     "steps": {
+        "04cff9b4-f62a-4cde-8f1c-9d551a71513c": {
+            "environment": "525b15c1-5828-4cec-86ca-b5a831af279a",
+            "file_path": "main.ipynb",
+            "incoming_connections": [
+                "fbb471c0-159e-4bf3-924f-5931aa5de0d6"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    547,
+                    80
+                ]
+            },
+            "parameters": {},
+            "title": "Main",
+            "uuid": "04cff9b4-f62a-4cde-8f1c-9d551a71513c"
+        },
         "58c9eaa4-0227-44b6-af0b-aeb369468192": {
             "environment": "525b15c1-5828-4cec-86ca-b5a831af279a",
             "file_path": "fetch-data.sh",
